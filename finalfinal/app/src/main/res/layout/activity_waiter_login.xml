@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddWaiter"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/arkaplan3">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Mail Adresi"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        android:id="@+id/staffLoginEmail"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Şifre"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:id="@+id/staffLoginPass"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:text="Giriş Yap"
+        android:textSize="17sp"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_curved_rectangle"
+        android:onClick="logIN"
+        android:textAllCaps="true"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:text="Menajer Girişi"
+        android:textSize="17sp"
+        android:id="@+id/managerLogPage"
+        android:background="@drawable/button_curved_rectangle"
+        android:layout_margin="20dp"
+        android:textAllCaps="true"/>
+
+</LinearLayout>

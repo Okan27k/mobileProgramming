@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddWaiter"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/arkaplan3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Garson Ekle"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mail Adresi"
+        android:textAlignment="center"
+        android:inputType="textEmailAddress"
+        android:id="@+id/staffEmail"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İsim"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:id="@+id/staffisim"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Şifre"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:id="@+id/staffPassword"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:text="KAYDET"
+        android:textSize="17sp"
+        android:layout_marginTop="30dp"
+        android:onClick="signWaiter"/>
+
+</LinearLayout>

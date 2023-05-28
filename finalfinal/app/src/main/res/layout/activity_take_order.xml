@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@drawable/arkaplan3">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sipariş Gir"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextTableNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Masa Numarası"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Sipariş"
+        android:maxLines="5" />
+
+    <Button
+        android:id="@+id/buttonPlaceOrder"
+        android:layout_width="160dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:textSize="17sp"
+        android:text="Siparişi Gönder"
+        android:background="@drawable/button_curved_rectangle"
+        android:textAllCaps="true"
+        android:backgroundTint="#FF0000" />
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@drawable/arkaplan3">
+
+    <Button
+        android:id="@+id/takeorderbutton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_curved_rectangle"
+        android:text="Sipariş Ver"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+
+        android:onClick="onButtonClick"
+        android:textAllCaps="true"/>
+
+    <Button
+        android:id="@+id/cleartablebutton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Masaları Temizle"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_curved_rectangle"
+        android:textColor="#FFFFFF"
+        android:onClick="onButtonClick"
+        android:textAllCaps="true"/>
+
+    <Button
+        android:id="@+id/seetablebutton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_curved_rectangle"
+        android:backgroundTint="#911919"
+        android:onClick="onButtonClick"
+        android:padding="10dp"
+        android:text="Siparişleri Gör"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</LinearLayout>

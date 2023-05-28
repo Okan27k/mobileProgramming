@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClearTable"
+    android:background="@drawable/arkaplan3">
+
+    <LinearLayout
+        android:id="@+id/parentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/cleartable1"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:scaleType="centerCrop"
+                android:backgroundTint="#ead9c7"
+                app:srcCompat="@drawable/table" />
+
+            <TextView
+                android:id="@+id/table1clearstat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Durum"
+                android:textAllCaps="true"
+                android:layout_gravity="center"
+                android:paddingTop="8dp"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/cleartable2"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/table"
+                android:backgroundTint="#ead9c7"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/table2clearstat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Durum"
+                android:textAllCaps="true"
+                android:layout_gravity="center"
+                android:paddingTop="8dp"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/cleartable3"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/table"
+                android:backgroundTint="#ead9c7"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/table3clearstat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Durum"
+                android:textAllCaps="true"
+                android:layout_gravity="center"
+                android:paddingTop="8dp"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/cleartable4"
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/table"
+                android:backgroundTint="#ead9c7"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/table4clearstat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Durum"
+                android:textAllCaps="true"
+                android:layout_gravity="center"
+                android:paddingTop="8dp"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/instructionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boşaltmak istediğiniz masaya tıklayın."
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
