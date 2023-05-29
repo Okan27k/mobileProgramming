@@ -9,23 +9,26 @@
     android:background="@drawable/arkaplan3"
     android:gravity="center">
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/addwaiter"
         android:layout_width="160dp"
         android:layout_height="75dp"
         android:layout_marginTop="40dp"
         android:background="@drawable/button_curved_rectangle"
         android:text="çalışan ekle"
+        android:textColor="@color/white"
+        android:backgroundTint="#66BB6A"
         android:textSize="17sp"
         android:textAllCaps="true"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/waiterlist"
         android:layout_width="160dp"
         android:layout_height="75dp"
         android:background="@drawable/button_curved_rectangle"
         android:text="çalışanları gör"
-        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:backgroundTint="#D54879"
         android:layout_marginBottom="30dp"
         android:layout_marginTop="16dp"
         android:textSize="17sp"

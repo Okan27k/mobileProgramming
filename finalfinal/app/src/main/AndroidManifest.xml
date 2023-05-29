@@ -8,11 +8,12 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/loadicon"
+        android:icon="@drawable/loadicon2"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Finalfinal"
+        android:theme="@style/AppTheme"
         tools:targetApi="31">
+
         <activity
             android:name=".WaiterListActivity"
             android:exported="false" />

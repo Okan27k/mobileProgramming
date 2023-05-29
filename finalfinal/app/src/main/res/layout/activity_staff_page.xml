@@ -8,7 +8,7 @@
     tools:context=".MainActivity"
     android:background="@drawable/arkaplan3">
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/takeorderbutton"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
@@ -17,11 +17,12 @@
         android:textSize="20sp"
         android:padding="10dp"
         android:layout_marginBottom="10dp"
-
+        android:textColor="@color/white"
+        android:backgroundTint="#43A047"
         android:onClick="onButtonClick"
         android:textAllCaps="true"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/cleartablebutton"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
@@ -31,15 +32,16 @@
         android:layout_marginBottom="10dp"
         android:background="@drawable/button_curved_rectangle"
         android:textColor="#FFFFFF"
+        android:backgroundTint="#FF7043"
         android:onClick="onButtonClick"
         android:textAllCaps="true"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/seetablebutton"
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:background="@drawable/button_curved_rectangle"
-        android:backgroundTint="#911919"
+        android:backgroundTint="#5C6BC0"
         android:onClick="onButtonClick"
         android:padding="10dp"
         android:text="Siparişleri Gör"

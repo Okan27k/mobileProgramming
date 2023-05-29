@@ -35,7 +35,7 @@
         android:hint="Sipariş"
         android:maxLines="5" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonPlaceOrder"
         android:layout_width="160dp"
         android:layout_height="75dp"
@@ -43,7 +43,8 @@
         android:textSize="17sp"
         android:text="Siparişi Gönder"
         android:background="@drawable/button_curved_rectangle"
+        android:backgroundTint="#0091EA"
         android:textAllCaps="true"
-        android:backgroundTint="#FF0000" />
+        android:textColor="@color/white"/>
 
 </LinearLayout>

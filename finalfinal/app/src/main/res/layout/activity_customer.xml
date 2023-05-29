@@ -7,7 +7,7 @@
     tools:context=".CustomerActivity"
     android:background="@drawable/arkaplan3">>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/reservebutton"
         android:layout_width="160dp"
         android:layout_height="80dp"
@@ -16,13 +16,14 @@
         android:background="@drawable/button_curved_rectangle"
         android:textSize="16sp"
         android:textColor="@android:color/white"
+        android:backgroundTint="#F44336"
 
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintHorizontal_bias="0.5" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/menubutton"
         android:layout_width="160dp"
         android:layout_height="80dp"
@@ -31,7 +32,7 @@
         android:background="@drawable/button_curved_rectangle"
         android:textSize="16sp"
         android:textColor="@android:color/white"
-
+        android:backgroundTint="#FF6F00"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/reservebutton"

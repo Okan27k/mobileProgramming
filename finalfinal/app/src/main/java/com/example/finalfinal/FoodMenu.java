@@ -31,15 +31,15 @@ public class FoodMenu extends AppCompatActivity {
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
-        foodDrinkList = generateFoodDrinkList(); // Yemek ve içecek verilerini içeren bir liste oluşturun
+        foodDrinkList = generateFoodDrinkList();
         adapter = new FoodAdapter(foodDrinkList);
         recyclerView.setAdapter(adapter);
     }
 
     private List<Fooditems> generateFoodDrinkList() {
-        // Yemek ve içecek verilerini burada oluşturun ve doldurun
+
         List<Fooditems> list = new ArrayList<>();
-        // Örnek verileri ekleyelim:
+
         list.add(new Fooditems("Pizza", "50TL", R.drawable.pizza));
         list.add(new Fooditems("Hamburger", "45TL", R.drawable.hamburger));
         list.add(new Fooditems("Salata", "20TL", R.drawable.salata));
@@ -49,7 +49,7 @@ public class FoodMenu extends AppCompatActivity {
         list.add(new Fooditems("Ayran", "6TL", R.drawable.ayran));
         list.add(new Fooditems("Su", "4TL", R.drawable.su));
 
-        // İsteğe bağlı olarak daha fazla yemek ve içecek ekleyebilirsiniz
+
 
         return list;
     }

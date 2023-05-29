@@ -26,23 +26,27 @@
         android:inputType="textPassword"
         android:id="@+id/staffLoginPass"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="160dp"
         android:layout_height="80dp"
         android:text="Giriş Yap"
         android:textSize="17sp"
         android:layout_margin="20dp"
         android:background="@drawable/button_curved_rectangle"
+        android:textColor="@color/white"
+        android:backgroundTint="#0091EA"
         android:onClick="logIN"
         android:textAllCaps="true"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="160dp"
         android:layout_height="80dp"
         android:text="Menajer Girişi"
         android:textSize="17sp"
         android:id="@+id/managerLogPage"
+        android:textColor="@color/white"
         android:background="@drawable/button_curved_rectangle"
+        android:backgroundTint="#D50000"
         android:layout_margin="20dp"
         android:textAllCaps="true"/>
 

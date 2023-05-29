@@ -70,7 +70,7 @@ public class SeeTable extends AppCompatActivity {
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-                // Hata durumunda yapılacaklar
+
             }
         });
     }

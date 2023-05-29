@@ -49,13 +49,13 @@ public class AddWaiter extends AppCompatActivity {
                         public void onComplete(@NonNull Task<AuthResult> task) {
                             if (task.isSuccessful()) {
                                 mUser = mAuth.getCurrentUser();
-                                String employeeID = mReference.push().getKey(); // Generate unique ID for the employee
+                                String employeeID = mReference.push().getKey();
 
                                 mData = new HashMap<>();
                                 mData.put("kullaniciAdi", txtisim);
                                 mData.put("kullaniciEmail", txtemail);
                                 mData.put("kullaniciSifre", txtpassword);
-                                mData.put("kullaniciid", employeeID); // Save the generated ID
+                                mData.put("kullaniciid", employeeID);
 
                                 mReference.child("Waiters").child(employeeID).setValue(mData)
                                         .addOnCompleteListener(new OnCompleteListener<Void>() {

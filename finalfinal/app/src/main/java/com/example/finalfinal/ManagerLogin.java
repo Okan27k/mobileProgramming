@@ -33,7 +33,7 @@ public class ManagerLogin extends AppCompatActivity {
         editPassword =(EditText) findViewById(R.id.managerpass);
         mAuth = FirebaseAuth.getInstance();
     }
-    //TODO: MENAJER GİRİŞİNDEN WAİTER GİREMEZ MESAJI VS VS
+
     public void managerlogIn(View v) {
         txtemail = editEmail.getText().toString();
         txtpassword = editPassword.getText().toString();

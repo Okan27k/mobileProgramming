@@ -25,7 +25,7 @@
         android:inputType="textPassword"
         android:id="@+id/managerpass" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="160dp"
         android:layout_height="80dp"
         android:text="Giris Yap"
@@ -33,6 +33,9 @@
         android:layout_marginTop="30dp"
         android:textAllCaps="true"
         android:onClick="managerlogIn"
-        android:background="@drawable/button_curved_rectangle"/>
+        android:background="@drawable/button_curved_rectangle"
+        android:textColor="@color/white"
+        android:backgroundTint="#0091EA"/>
+
 
 </LinearLayout>

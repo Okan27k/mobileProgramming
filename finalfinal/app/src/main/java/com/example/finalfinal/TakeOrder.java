@@ -46,15 +46,15 @@ public class TakeOrder extends AppCompatActivity {
             return;
         }
 
-        // Masa durumunu ve siparişini güncelle
+
         DatabaseReference masaRef = masalarRef.child("masa" + tableNumber);
         masaRef.child("durum").setValue("dolu");
         masaRef.child("siparis").setValue(orderText);
 
-        // Kullanıcıya geri bildirim veriliyor
+
         Toast.makeText(this, "Siparişiniz alındı", Toast.LENGTH_SHORT).show();
 
-        // Girdiler temizleniyor
+
         editTextTableNumber.setText("");
         editTextOrder.setText("");
     }

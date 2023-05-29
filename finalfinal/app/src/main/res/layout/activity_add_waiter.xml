@@ -41,12 +41,15 @@
         android:inputType="textPassword"
         android:id="@+id/staffPassword"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="160dp"
         android:layout_height="80dp"
-        android:text="KAYDET"
-        android:textSize="17sp"
         android:layout_marginTop="30dp"
-        android:onClick="signWaiter"/>
+        android:background="@drawable/button_curved_rectangle"
+        android:onClick="signWaiter"
+        android:textColor="@color/white"
+        android:backgroundTint="#0091EA"
+        android:text="KAYDET"
+        android:textSize="17sp" />
 
 </LinearLayout>
